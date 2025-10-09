@@ -55,7 +55,6 @@ It simulates **customer profiles, transactions, marketing responses, and monthly
 | Investor | Moderate growth + investment activity |
 | Risk-Taker | Irregular spikes and dips |
 
-*(Visuals are in `/docs/visuals/`)*
 
 
 

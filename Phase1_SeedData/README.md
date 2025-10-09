@@ -42,9 +42,4 @@ The focus is to generate **realistic but fully synthetic** customer attributes, 
 |------|--------------|
 | `faker_seed.py` | Python script that uses Faker (with Indian locale `en_IN`) to generate all three tables and save them as CSVs. |
 
-**Tools & Libraries**
-faker
-pandas
-numpy
-random
 datetime

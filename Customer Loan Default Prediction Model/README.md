@@ -12,7 +12,7 @@ The model uses the **Phase 2 HMA Synthetic Dataset** as input:
 
 | Dataset | Description |
 |----------|-------------|
-| `customers_hma_10000.csv` | Synthetic customer profiles including income, savings, loan balance, and credit score generated using HMA Synthesizer. |
+| `customers_hma_10000_india.csv` | Synthetic customer profiles including income, savings, loan balance, and credit score generated using HMA Synthesizer. |
 
 
 
@@ -20,7 +20,7 @@ The model uses the **Phase 2 HMA Synthetic Dataset** as input:
 
 | File | Description |
 |------|--------------|
-| `default_prediction_model.py` | Main script that generates a default flag (`Yes`/`No`), trains a predictive model, and evaluates results. |
+| `default_prediction.py` | Main script that generates a default flag (`Yes`/`No`), trains a predictive model, and evaluates results. |
 
 
 

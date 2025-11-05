@@ -1,0 +1,7 @@
+# Hide sensitive API keys
+.streamlit/secrets.toml
+
+# Ignore local environment and cache
+.venv/
+__pycache__/
+*.pyc

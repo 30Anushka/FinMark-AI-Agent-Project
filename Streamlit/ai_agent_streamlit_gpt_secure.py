@@ -19,8 +19,7 @@ except Exception as e:
     st.stop()
 
 # ---------------- LOAD DATA ----------------
-data_path = "financial_behavior.csv"
-
+data_path = "https://raw.githubusercontent.com/30Anushka/FinMark-AI-Agent-Project/main/Streamlit/financial_behavior.csv"
 try:
     df = pd.read_csv(data_path)
 except FileNotFoundError:
@@ -132,3 +131,4 @@ else:
 st.markdown("---")
 
 st.caption("🤖 Powered by FinMark Synthetic Data (Phase 5) and GPT reasoning.")
+

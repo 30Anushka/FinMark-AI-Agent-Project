@@ -50,7 +50,7 @@ def login_page():
             st.session_state.authenticated = True
             st.session_state.customer_id = int(customer_id)
             st.success("✅ Login successful! Redirecting...")
-            st.experimental_rerun()
+            st.rerun()
 
 # ---------------- GPT ADVISOR FUNCTION ----------------
 def ask_gpt(user_query, profile):
@@ -131,4 +131,5 @@ else:
 st.markdown("---")
 
 st.caption("🤖 Powered by FinMark Synthetic Data (Phase 5) and GPT reasoning.")
+
 

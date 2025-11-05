@@ -19,7 +19,7 @@ except Exception as e:
     st.stop()
 
 # ---------------- LOAD DATA ----------------
-data_path = "synthetic_data/financial_behavior.csv"
+data_path = "financial_behavior.csv"
 
 try:
     df = pd.read_csv(data_path)
@@ -130,4 +130,5 @@ else:
     advisor_page()
 
 st.markdown("---")
+
 st.caption("🤖 Powered by FinMark Synthetic Data (Phase 5) and GPT reasoning.")
